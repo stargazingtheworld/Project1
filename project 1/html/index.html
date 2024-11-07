@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Adoption Platform</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="C:\Users\Dell\OneDrive\Desktop\Project1\project 1\css\styles.css">
 </head>
 <body>
 
+  
+    
     <!-- Header Section -->
     <div class="header-box">
         <header id="main-header">
             <h1>Find Your Perfect Pet Companion</h1>
-            <p>Adopt, don’t shop! Give a pet a loving home.</p>
+            <p>Adopt, don't shop! Give a pet a loving home.</p>
             <nav>
-                <ul class="nav-items">
-                    <li><a href="#why-adopt">Why Adopt</a></li>
-                    <li><a href="#pets">Available Pets</a></li>
-                    <li><a href="#pet-care-tips">Pet Care Tips</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
+                <ul class="nav-items" class = 'round'>
+                    <li><a href="#why-adopt" id="no1">Why Adopt</a></li>
+                    <li><a href="#pets" id="no2">Available Pets</a></li>
+                    <li><a href="#pet-care-tips" id="no3">Pet Care Tips</a></li>
+                    <li><a href="#contact" id="no4">Contact Us</a></li>
                 </ul>
             </nav>        
         </header>
@@ -28,6 +30,7 @@
 
     <!-- Why Adopt Section -->
     <section id="why-adopt" class="section-why">
+        <script src="C:\Users\Dell\OneDrive\Desktop\Project1\project 1\Script.js\script.js"></script>
         <div class="section-why-text">
             <h2>Why Adopt a Pet?</h2>
             <p>Adopting a pet not only gives a homeless animal a second chance, but it also brings joy and love into your life. Here are some benefits:</p>
@@ -45,16 +48,21 @@
 
     <!-- Available Pets Section -->
     <section id="pets" class="section-pets">
+        
         <h2>Available Pets for Adoption</h2>
         
         <!-- Pet Profiles -->
         <div class="pet-profile pet-grid-1" id="pet1">
+        
+            
             <img src="/assets/dog-max.jpg" class="max-img" alt="Golden Retriever named Max">
             <div class="pet-profile-text">
                 <h3>Max</h3>
                 <p>Golden Retriever | Age: 3 years | Friendly, energetic, and loves to play fetch.</p>
-                <button class="favorite-button">Add to Favorites</button>
+                <button class="favorite-button" id="petit" type="submit">Add to Favorites</button>
+                <script src="/Script/script.js" defer></script>
             </div>
+            
         </div>
 
         <div class="pet-profile pet-grid-2" id="pet2">
@@ -62,8 +70,9 @@
             <div class="pet-profile-text">
                 <h3>Luna</h3>
                 <p>Tabby Cat | Age: 2 years | Calm, affectionate, and loves cuddles.</p>
-                <button class="favorite-button">Add to Favorites</button>
+                <button class="favorite-button" id="petit1">Add to Favorites</button>
             </div>
+            <script src="Script.js\script.js"></script>
         </div>
 
         <div class="pet-profile pet-grid-3" id="pet3">
@@ -71,7 +80,7 @@
             <div class="pet-profile-text">
                 <h3>Snowball</h3>
                 <p>Rabbit | Age: 1 year | Curious, gentle, and enjoys carrots and greens.</p>
-                <button class="favorite-button">Add to Favorites</button>
+                <button class="favorite-button" id="petit2">Add to Favorites</button>
             </div>
         </div>
     </section>
@@ -79,17 +88,17 @@
     <!-- Pet Care Tips Section -->
     <section id="pet-care-tips" class="section-tips">
         <h2>Pet Care Tips</h2>
-        <article class="article-box">
+        <article class="article-box" id="No1">
             <h3>For Dogs</h3>
             <p>Regular exercise, a balanced diet, and routine vet check-ups are essential. Make sure to provide mental stimulation with toys and training.</p>
         </article>
 
-        <article class="article-box">
+        <article class="article-box" id="No2">
             <h3>For Cats</h3>
             <p>Keep their litter clean, provide scratching posts, and engage them with interactive toys. Cats enjoy high spots, so consider cat trees or shelves.</p>
         </article>
 
-        <article class="article-box">
+        <article class="article-box" id="No3">
             <h3>For Rabbits</h3>
             <p>Rabbits need space to hop and play, along with a diet rich in hay and fresh greens. Provide safe chew toys to keep their teeth healthy.</p>
         </article>
@@ -107,6 +116,8 @@
         </div>
     </footer>
 
-    <script src="scripts.js"></script>
+   <script src="/project 1/Script/script.js">
+    
+   </script>
 </body>
 </html>
