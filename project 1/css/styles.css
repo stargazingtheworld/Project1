@@ -62,7 +62,7 @@ body {
     }
 .round{
     border-radius: 100%;
-    background-color: red;
+    background-color: lightpink;
     transition: 1s;
 }
 
@@ -216,4 +216,8 @@ body {
     width: 100%;
     justify-items: center;
     padding-block: 5rem;
+}
+.round1{
+    border-radius: 0%;
+    color: none;
 }

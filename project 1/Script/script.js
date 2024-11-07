@@ -16,8 +16,11 @@ document.querySelector('#petit2').addEventListener('click', (action) => {
 
 // Event listener for navigation items hover
 document.querySelector('.nav-items').addEventListener('mouseover', (action) => {
-    action.preventDefault();
     action.target.classList.toggle('round');
+});
+
+document.querySelector('.nav-items').addEventListener('mouseout', (action) => {
+    action.target.classList.toggle('round1');
 });
 
 // Main header text and style
